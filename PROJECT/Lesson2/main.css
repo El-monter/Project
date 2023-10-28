@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a { text-decoration: none;
+color: #000}
+
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+/*header*/
+.header {
+    display: block;
+    text-align: center;
+    height: 900px;
+    background-color: #f6f6f6;
+}
+.nav-menu {
+    padding-top: 90px;
+}
+.nav-menu-list li {
+    display: inline-block;
+    margin-right: 63px;
+}
+
+.nav-menu-list li:last-child {
+    margin-right: 0px;
+}
+.nav-menu-list li {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.logo {
+    padding-top: 226px;
+}
+
+.scroll {
+    padding-top: 176px;
+}
+/* mobile-app*/
+
+.mobile-app {
+    padding-top: 63px;
+}
+
+.main-mobile-app {
+    display: flex;
+    justify-content: space-between;
+    /*text-align: center;
+    height: 900px;
+    background-color: #f6f6f6;*/
+}
+.main-mobile-app span {
+    font-size: 40;
+    font-weight: lighter;
+}
+
+.main-mobile-app h2 {
+    font-size: 60;
+    font-weight: bold;
+    margin-top: 63px;
+    margin-bottom: 117px;
+
+}
+.main-mobile-app p {
+    font-size: 27;
+    font-weight: normal;
+}
