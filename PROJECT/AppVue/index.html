@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/vue@next"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>ApplicationVue</title>
+</head>
+<body>
+
+<!-- вывод списка дел-->
+    <div class="mainDeskTodo" id="todoList">
+        <h1>Список дел</h1><br>
+
+        <div class="deskInpItem">
+            <input class="inpItem" type="text" name="" id="" v-model="item" :key="item.id" @keypress.enter="addItem">    
+            <button class="inpBtnItem"v-on:click="addItem" >Добавить задание</button><br>
+        </div><br>
+        
+       
+          <div class="deskTodo">
+                <p class="liTodo" v-for="(i, index) in todoData">
+                       <input type="checkbox" />
+                       <div class="textTodo">{{index+1}} {{i.text}} </div>
+                       
+                        <button v-on:click="delItem(index)">Удалить</button>    
+                </p >
+        </div>
+
+               
+    </div>
+<br>
+
+
+
+<!-- подключение внешней базы. Замем это в задании не понял-->
+    <div class="fortodo">
+               
+            <div class="" id="todoDiv">
+
+            <todo-item   v-for="(todo, index) in todoList"
+                         :todo="todo"
+                         :index="index"
+            ></todo-item>
+            
+           </div>
+    </div>
+    
+</body>
+</html>

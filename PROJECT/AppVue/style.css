@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainDeskTodo{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 600px;
+   
+    /* border: 3px solid rgb(60, 49, 41); */
+    background-color: rgb(246, 238, 233);
+  
+}
+h1{
+    margin-left: 33%;
+}
+.deskInpItem{
+    display: flex;
+  justify-content: center;
+   
+}
+.inpItem{
+    
+    width: 50%;
+    height: 20px;
+     border: 3px solid rgb(60, 49, 41);
+     background-color: rgb(226, 222, 222); 
+}
+
+.textTodo{
+    width: 500px;
+}
+.deskTodo {
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+    width: 580px;
+    
+    
+    background-color: rgb(226, 222, 222); 
+    font-size: larger;
+    font-weight: lighter;
+    text-align: center;
+    border: 0 0 1px 0 solid rgb(22, 22, 32);
+}
+
+.inpItem{
+    border: 3px;
+}
+
+
+
+#todoDiv {
+    margin-top: 100px;
+    
+    width: 600px;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: rgb(212, 217, 217);
+    font-size: larger;
+    font-weight: bold;
+    
+    
+    
+};
+
