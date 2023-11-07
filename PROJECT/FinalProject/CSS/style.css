@@ -123,20 +123,22 @@ body {
 }
 .tit1 {
 	margin:10px 0 0 0;
-	font-size:27px;
+	font-size:24px;
 	color:#00AEC4;
+	text-align: left;
 }
 .tit1 span {
 	color:#FEEFB8;
 }
 .tit2 {
 	margin:0 0 10px 0;
-	font-size:20px;
+	font-size:18px;
 	color:#FEEFB8;
+	text-align: left;
 }
 .text {
 	margin: 20px 0 0 106px;
-	font-size:17px;
+	font-size:16px;
 	width:714px;
 	color:#00AEC4;
 }
@@ -180,11 +182,15 @@ body {
 }
 .about_txt {
 	float:left;
-	font-size:11px;
+	font-size:14px;
 	width:612px;
 	margin: 0 0 0 18px;
 	color:#FEEFB8;
 }
+.about_txt > a {
+	color:rgb(54, 36, 193);	
+}
+
 /* -- Contact Page  -- */
 .cont {
 	padding:30px 0 0 220px;	
@@ -237,7 +243,7 @@ body {
 }
 #submit {
 
-	width:92px;
+	width: 96px;
 	height:34px;
    	color:#010d15;
 	font-size:16px;
@@ -290,6 +296,7 @@ body {
 .holder {
 	width:878px;
 	height:460px;
+	
 }
 .holder a {
 	width:187px;
