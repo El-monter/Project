@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+	background: url(../IMG/img3_3.jpg) center 0px no-repeat;
+	font-family:Verdana, Arial, Sans-serif;
+	font-size:11px;
+	color:#605D5C;
+	margin:0px;
+}
+.main {
+	width:990px;
+	height:787px;
+	margin:0 auto;
+}
+.logo {
+	background: url(../IMG/logo-2.png) no-repeat;
+	width:313px;
+	height:50px;
+	left:532px;
+	top:55px;
+	position:relative;
+}
+
+
+/* -- Menu -- */
+.menu {
+	width:400px;
+	height:50px;
+	margin:75px 0 0 516px;
+}
+
+
+.mh {
+	width: 80px;
+    height: 68px;
+	margin:0px;
+}
+.ms {
+	width: 80px;
+    height: 68px;
+	margin:0 0 0 25px;
+}
+.mp {
+	width: 80px;
+    height: 68px;
+	margin:0 0 0 25px;
+}
+.mc {
+	width: 80px;
+    height: 68px;
+	margin:0 0 0 25px;
+}
+.menu > button {
+	float:left;
+	text-align:center;
+    border: 2px solid #00AEC4;
+    border-radius: 5px ;
+    background: none;
+
+}
+.menu >span {
+	margin:4px 0 0 0px;
+}
+.menu_tit {
+	text-decoration:none;
+	color:#c0d2de;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+ .menu_tit:hover, .menu_tit_act {
+	color: #FEEFB8;
+	text-shadow: 1px 1px 1px rgb(222, 221, 254) ;
+}  
+
+
+
+/* -- Footer -- */
+.foo {
+	width:900px;
+	height:50px;
+	margin:0 0 0 40px;
+}
+.telega {
+    
+    background-image:  url(../IMG/telegram_.svg) ;
+    background-size: cover;
+	width:26px;
+	height:26px;
+	margin:0 0 0 716px;
+}
+.rgh {
+	color: #FEEFB8;
+	font-size:12px;
+	text-decoration:none;
+    margin:0 0 0 100px;
+}
+
+.ftel {
+	font-size:12px;
+	margin:0 0 0 512px;
+	text-decoration:none;
+	color:#FEEFB8;
+}
+.cnt {
+	width:904px;
+	height:524px;
+	margin:0 0 0 40px;
+}
+/* -- Index Page  -- */
+.ind {
+	padding:30px 0 0 106px;
+}
+.ind_tit {
+	border-top: 2px dotted #FEEFB8;
+	border-bottom: 2px dotted #FEEFB8;
+	width:700px;
+}
+.tit1 {
+	margin:10px 0 0 0;
+	font-size:27px;
+	color:#00AEC4;
+}
+.tit1 span {
+	color:#FEEFB8;
+}
+.tit2 {
+	margin:0 0 10px 0;
+	font-size:20px;
+	color:#FEEFB8;
+}
+.text {
+	margin: 20px 0 0 106px;
+	font-size:17px;
+	width:714px;
+	color:#00AEC4;
+}
+
+.pic_sld {
+	position:absolute;
+	margin:50px 0 0 182px;
+	
+}
+.pic_sld img {
+	width:715px;
+	height:256px;
+	border: 2px solid #FEEFB8;
+	border-radius: 15px 15px 15px 15px;
+} 
+
+/* -- Skill Page  -- */
+.about_tit {
+	color:#00AEC4;
+	padding: 75px 0 0 284px;
+	font-size:24px;
+}
+.about {
+	margin:20px 0 0 20px;
+}
+.about_info {
+	float:left;
+}
+.about_info img {
+	width: 160px;
+	height: auto;
+	border:2px solid #FEEFB8;
+	margin:3px 0 0 0;
+}
+.about_info a {
+	font-size:12px;
+	color:#00AEC4;
+	display:block;
+	text-decoration:none;
+	margin:10px 0;
+}
+.about_txt {
+	float:left;
+	font-size:11px;
+	width:612px;
+	margin: 0 0 0 18px;
+	color:#FEEFB8;
+}
+/* -- Contact Page  -- */
+.cont {
+	padding:30px 0 0 220px;	
+}
+.cont_n {
+	margin:0 0 20px 10px;
+	color:#FEEFB8;
+	font-size:24px;
+}
+.cont_i {
+	color:#00AEC4;
+	margin:0 0 0 10px;
+	font-size:11px;
+}
+.cont_e {
+	color:#00AEC4;
+	margin:20px 0 0 10px;
+	font-size:11px;
+}
+.cont_f {
+	color:#00AEC4;
+	margin:20px 0 20px 10px;
+	font-size:14px;
+}
+.frm {
+	border-top: 2px dotted #FEEFB8;
+	border-bottom: 2px dotted #FEEFB8;
+	width:490px;
+	padding:10px 0 0 5px;
+}
+.frm input {
+	background-color:rgb(184, 252, 254);
+	border: 1px solid #010d15;
+	height: 21px;
+	width:240px;
+	margin:0 10px 10px 0;
+	padding:5px 0 0 5px;
+}
+.frm p {
+	color:#e5fafd;
+}
+.frm span {
+	color:rgb(184, 236, 147);
+}
+
+.frm textarea {
+	background-color:rgb(184, 252, 254);
+	border: 1px solid #010d15;
+	padding:5px 0 0 5px;
+}
+#submit {
+
+	width:92px;
+	height:34px;
+   	color:#010d15;
+	font-size:16px;
+	font-style:italic;
+	border: 1px solid #010d15;
+	cursor:pointer;
+	margin:0 0 0 390px;
+	padding:0px;
+}
+#submit:hover {
+    background-color:#FEEFB8;
+}
+
+/* -- Myproject Page -- */
+.sub_menu {
+	padding:35px 0 0 196px;
+	height:47px;
+}
+.sub_menu a {
+	width:173px;
+	height:47px;
+	display:block;
+	float:left;
+	margin:0 10px 0 0;
+}
+
+.click {
+	color:#00AEC4;
+	border-top: 2px dotted #FEEFB8;
+	border-bottom: 2px dotted #FEEFB8;
+	width:184px;
+	margin:35px auto 0;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	font-size: 12px;
+}
+/* -- scroller -- */
+.slider {
+	float:left;
+	margin:35px 0 0 0;
+}
+.content-scroll {
+	width:884px;
+	height:300px;	
+	float:left;
+	margin:35px 0 0 12px;
+	overflow:auto;
+	overflow-x:hidden;
+}
+.holder {
+	width:878px;
+	height:460px;
+}
+.holder a {
+	width:187px;
+	height:132px;
+	display:block;
+	text-decoration:none;
+	margin: 0 14px 20px 14px;
+	float:left;
+    background-size: cover;
+}
+.holder img {
+	border:3px solid #FEEFB8;
+}
